@@ -19,8 +19,8 @@ public class MatrixLogic {
         return matrix;
     }
 
-    protected static double getDeterminant(double[][] matrixData) {
-        return new Matrix(matrixData).det(); //определитель матрицы
+    protected static int getDeterminant(double[][] matrixData) {
+        return (int) new Matrix(matrixData).det(); //определитель матрицы
     }
 
     protected static double[][] reverseMatrix(double[][] matrixData) {//обратная матрица
